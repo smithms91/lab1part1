@@ -125,11 +125,17 @@ body, html {
     padding: 25px;
     border-radius: 12px;
     justify-content: space-around;
+    flex: 1;
+    color: #142948;
 }
 
 .box:hover {
     background-color: #6d90c5;
     opacity: .9;
+}
+
+#sectTwo a {
+    flex-basis: 30%;
 }
 
 .imgTwo {
@@ -265,7 +271,6 @@ p {
 	border:1px solid #dcdcdc;
 	display:inline-block;
 	cursor:pointer;
-	color:#666666;
 	font-family:Arial;
 	font-size:15px;
 	font-weight:bold;
@@ -286,6 +291,10 @@ p {
 .myButton:active {
 	position:relative;
 	top:1px;
+}
+
+.myButton a {
+    color: #142948;
 }
 
 .about {
@@ -535,6 +544,7 @@ fieldset {
         max-width: 100%;
         display: block;
         clear: both;
+        flex: 1;
     }
     nav {
         display: block;
